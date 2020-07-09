@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3 Petits Sons</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"
+      integrity="sha512-M+hXwltZ3+0nFQJiVke7pqXY7VdtWW2jVG31zrml+eteTP7im25FdwtLhIBTWkaHRQyPrhO2uy8glLMHZzhFog=="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-header">
+      <div class="logo-full">
+        <h1><a href="./index.html" id="logo">Snos.</a></h1>
+        <h5>
+          <a href="./index.html" id="logo-sub"
+            >3 styles, 3 sons, chaque mois, simple</a
+          >
+        </h5>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="mountain slide">
+        <div class="hero-img">
+          <img src="./img/lb.jpg" alt="forest image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>Rap <span class="mountain-span">Francophone.</span></h2>
+            <div class="title-swipe t-swipe1"></div>
+          </div>
+          <p>
+            Selection pour le mois de Juillet, du vieux et du moins vieux.
+          </p>
+          <a href="./Rap/index.html" class="explore mountain-exp">Les 3 sons</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="hike slide">
+        <div class="hero-img">
+          <img src="./img/lr.jpeg" alt="hike image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>House <span class="hike-span">(au sens large).</span></h2>
+            <div class="title-swipe t-swipe2"></div>
+          </div>
+          <p>
+            Pour Juillet, ça groove fort.
+          </p>
+          <a href="./House/index.html" class="explore hike-exp">Les 3 sons</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="fashion slide">
+        <div class="hero-img">
+          <img src="./img/bb.jpg" alt="fashion image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>Rosé<span class="fashion-span"> piscine, chill.</span></h2>
+            <div class="title-swipe t-swipe3"></div>
+          </div>
+          <p>
+            Plaisanciers, la saison est ouverte
+          </p>
+          <a href="./Rosé/index.html" class="explore fashion-exp">Les 3 sons</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+    </main>
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <a href="https://www.linkedin.com/in/hugovalla" target="_blank"
+          ><h3>Linkedin</h3></a
+        >
+        <a href="https://www.instagram.com/hugo_v/" target="_blank"
+          ><h3>Instragram</h3></a
+        >
+        <a href="http://www.hugovalla.co/" target="_blank"
+          ><h3>Portfolio</h3></a
+        >
+        <a href="https://github.com/HugoWith" target="_blank"
+          ><h3>Github</h3></a
+        >
+        <a href="mailto:valla.hugo@gmail.com" target="_blank"><h3>Email</h3></a>
+      </ul>
+      <div class="contact">
+        <h2>Restons en contact.</h2>
+        <p>
+          Construit avec ❤️ par Hugo Valla.©
+        </p>
+      </div>
+    </nav>
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+
+    <!-- unpkg -->
+    <script src="https://unpkg.com/@barba/core"></script>
+
+    <!-- jsdelivr -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"
+      integrity="sha256-XDWrid8aGX+NZwSY7JzTu6oWArI71Sw+aUZ9Hd0P5mo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
